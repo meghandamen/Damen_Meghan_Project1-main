@@ -5,9 +5,17 @@
 #container {
     width: 428px;
     margin: 20px auto;
-    border: solid 1px #333;
-    background-color: white;
+    border: solid 1px #f87b15;
+    background-color: rgba(255, 213, 161, 0.276);
     border-radius: 10px;
+}
+
+p {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 25px;
 }
 
 #mainContent {
@@ -20,6 +28,8 @@
 
 article {
     grid-column: 1/-1;
+    color: #ff721a;
+    
 }
 
 img {
