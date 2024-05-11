@@ -21,3 +21,8 @@
 article {
     grid-column: 1/-1;
 }
+
+img {
+    width: 390px;
+    margin: 20px auto;
+}
