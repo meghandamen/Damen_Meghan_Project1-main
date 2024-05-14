@@ -11,8 +11,7 @@
 }
 
 p {
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
+    font-family: "Roboto Mono", monospace, sans-serif;
     font-weight: 700;
     font-style: normal;
     line-height: 25px;
@@ -29,10 +28,10 @@ p {
 article {
     grid-column: 1/-1;
     color: #ff721a;
-    
 }
 
 img {
     width: 390px;
     margin: 20px auto;
+    border: solid 2px #f87b15;
 }
